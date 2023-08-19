@@ -2,12 +2,13 @@ package cdp_test
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
 	"io"
 	"path/filepath"
 	"testing"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/go-rod/rod"
 	"github.com/go-rod/rod/lib/cdp"

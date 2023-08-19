@@ -3,9 +3,10 @@ package proto
 
 import (
 	"context"
-	"encoding/json"
 	"reflect"
 	"strings"
+
+	"github.com/goccy/go-json"
 )
 
 // Client interface to send the request.

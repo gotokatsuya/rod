@@ -2,7 +2,6 @@ package rod_test
 
 import (
 	"bytes"
-	"encoding/json"
 	"errors"
 	"image/color"
 	"image/png"
@@ -10,6 +9,8 @@ import (
 	"path/filepath"
 	"testing"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/go-rod/rod"
 	"github.com/go-rod/rod/lib/cdp"

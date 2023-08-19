@@ -6,7 +6,6 @@ import (
 	"context"
 	"crypto/rand"
 	"encoding/hex"
-	"encoding/json"
 	"fmt"
 	"image"
 	"image/jpeg"
@@ -23,6 +22,8 @@ import (
 	"sync"
 	"text/template"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/ysmood/gson"
 )

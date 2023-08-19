@@ -2,11 +2,12 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
 	"log"
 	"net"
 	"net/http"
+
+	"github.com/goccy/go-json"
 
 	"github.com/go-rod/rod"
 )

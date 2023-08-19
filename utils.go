@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"context"
 	"encoding/base64"
-	"encoding/json"
 	"fmt"
 	"io"
 	"log"
@@ -16,6 +15,8 @@ import (
 	"runtime/debug"
 	"sync"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/go-rod/rod/lib/cdp"
 	"github.com/go-rod/rod/lib/proto"

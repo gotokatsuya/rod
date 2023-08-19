@@ -2,9 +2,10 @@ package proto_test
 
 import (
 	"context"
-	"encoding/json"
 	"errors"
 	"reflect"
+
+	"github.com/goccy/go-json"
 
 	"github.com/go-rod/rod/lib/proto"
 	"github.com/go-rod/rod/lib/utils"

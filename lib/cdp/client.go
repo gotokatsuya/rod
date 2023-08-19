@@ -3,9 +3,10 @@ package cdp
 
 import (
 	"context"
-	"encoding/json"
 	"sync"
 	"sync/atomic"
+
+	"github.com/goccy/go-json"
 
 	"github.com/go-rod/rod/lib/defaults"
 	"github.com/go-rod/rod/lib/utils"

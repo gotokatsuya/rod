@@ -5,13 +5,14 @@
 package rod
 
 import (
-	"encoding/json"
 	"fmt"
 	"html"
 	"net"
 	"net/http"
 	"strings"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/go-rod/rod/lib/assets"
 	"github.com/go-rod/rod/lib/js"
